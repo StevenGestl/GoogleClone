@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<!--Project time: 2 hr 45min -->
+<head>
+	<style>
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: inline;
+		}
+		
+		Li{
+			display: inline;
+		}
+		
+		
+		#img1{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 160px;
+		}
+		
+		#img2{
+			position: absolute;
+			top: 0px;
+			right: 12px ;
+		}
+		
+		a{
+			color:black;
+			text-decoration: none;
+		}
+		
+		a:hover{
+			color:black;
+			text-decoration: underline;
+		}
+		
+	
+		
+		.nav1{
+		font-family: "Arial", "Verdanda", "Helveticia";
+		font-size: 13.5px;
+		font-color: black;
+		padding-top: 4px;
+		
+		}
+		
+		.nav2{
+		font-family: "Arial", "Verdanda", "Helveticia";
+		font-size: 13.5px;
+		}
+		
+		#search{
+		font-family: "Arial", "Verdanda", "Helveticia";
+		 border-radius: 25px;
+		border: 2px solid #ced3db;
+		padding: 20px; 
+		
+		width: 500px;
+		height: 0px;
+		
+		 
+		}
+		
+		.btns{
+		font-family: "Arial", "Verdanda", "Helveticia";
+		padding-top: 25px;
+		opacity: 0.5;
+		}
+		
+		.div2{
+		font-family: "Arial", "Verdanda", "Helveticia";
+		padding-top: 20px;
+		}
+		
+		.footerDiv{
+			font-family: "Arial", "Verdanda", "Helveticia";
+			position: absolute;
+			bottom: 10px;
+			background-color: #f2f2f2
+		
+		}
+		
+		#btnTop{
+		
+			height: 20px;
+			width: 20px; 
+			
+		}
+		
+		#btn1{
+			color: black;
+			height: 30px;
+			width: 125px;
+		}
+		
+		#btn2{
+			color: black;
+			height: 30px;
+			width: 125px;
+			opacity: 1.0;
+		}
+		
+
+	</style>
+	
+<title>Google Clone</title>
+<!--<link rel="google" href="">-->
+</head>
+
+<div class="nav1">
+	<ul>
+		<li style="padding-right: 18px; padding-left: 15px"><a href="">About</li>
+		<li style="padding-right: 935px"><a href="">Store</li>
+		<li style="padding-right: 18px"><a href="">Gmail</li>
+		<li style="padding-right: 18px"><a href="">Images</li>
+		<li><button id="btnTop"></button></li>
+		<li>
+			<a href="googlesmall">
+			<img src="googsmall.png" alt="more google options" id="img2"
+			width="50px" height="50px">
+			</a>
+		</li>
+	</ul>
+</div>
+
+<div class="logo">
+<img src="googlelogo.jpg" alt="Google Logo" style="width:325px;275px;" id="img1">
+</div>
+
+<div class="search" align="center">
+<input  type="text" id="search" name="search">
+</div>
+
+<div class="btns" align="center">
+<button id="btn2">Google Search</button>
+<button id="btn2">I'm Feeling Lucky</button>
+</div>
+
+<div class="div2" align="center">
+<a href="">Explore Search Trends in honor of The Event of the Day</a>
+</div>
+
+<footer>
+<div class="footerDiv">
+	<ul>
+		<li style="padding-right: 25px; padding-left: 15px"><a href="">Advertising</li>
+		<li style="padding-right: 25px"><a href="">Business</li>
+		<li style="padding-right: 25px"><a href="">How Search Works</li>
+		<li style="padding-left: 215px"><a href="">Carbon Neutral Since 2007</li>
+		<li style="padding-left: 215px; padding-right:25px"><a href="">Privacy</li>
+		<li style="padding-right:25px"><a href="">Terms</li>
+		<li style="padding-right:25px"><a href="">Settings</li>
+	</ul>
+</div>
+</footer>
